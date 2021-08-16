@@ -38,6 +38,7 @@ body {
 
     background-color: var(--tausta);
     color: var(--teksti);
+   
 
   }
 
@@ -45,6 +46,7 @@ body {
     font-size: 1.5em;
     line-height: 1.4em;
     padding-top: 100px;
+    padding-bottom: 120px;
   }
 
   header{
@@ -124,8 +126,12 @@ body {
   footer{
     background-color: var(--bg-dark);
     color: var(--teksti-vaalea);
-    padding: 40px 0;
+    padding: 50px 0;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
   }
 
   table {
@@ -140,9 +146,7 @@ body {
       border: 1px solid black; 
   }
 
-  .arviointiTaulukko{
-    
-  }
+  
 
   .varillinen{
     background-color: var(--tableColor);
@@ -154,6 +158,10 @@ body {
     background-color: var(--tableColor);
   }
   
+
+
+
+
 
   
 
