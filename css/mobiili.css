@@ -8,7 +8,9 @@
     header,
     header > div.logo,
     header > nav,
-    header > nav a
+    header > nav a,
+    section,
+    main
     {
         display: block;
         float: none;
@@ -18,13 +20,28 @@
         clear: both;
     }
 
+   
+
+
     .v-center, .h-right{
         display: block;
         position: relative;
         transform: none;
     }
 
+    .showcase{
+        font-size: 0.8em;
+        
+    }
+
+    .tutkinnonOsat, .showcase, .arviointiTaulukko, .osaamisen-arviointi, .tutkinnon-muodostuminen{
+        margin-top: 160px;
+    }
+
+    
+
+
     header nav a{
-        padding: 5px 0;
+        padding: 2px 0;
     }
 }
