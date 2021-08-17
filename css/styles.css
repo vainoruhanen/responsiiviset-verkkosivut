@@ -161,6 +161,17 @@ body {
   }
   
 
+  .osaamisen-arviointi, .tutkinnon-muodostuminen, .tutkinnonOsat{
+    padding-top: 30px;
+  }
+
+  .tutkintoLista{
+    padding-bottom: 52px;
+  }
+
+  .arviointiTeksti{
+    padding-bottom: 28px;
+  }
 
 
 
