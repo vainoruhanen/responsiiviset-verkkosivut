@@ -20,6 +20,10 @@
         clear: both;
     }
 
+    header{
+        font-size: 1.2em;
+        
+    }
    
 
 
@@ -34,9 +38,20 @@
         
     }
 
-    .tutkinnonOsat, .showcase, .arviointiTaulukko, .osaamisen-arviointi, .tutkinnon-muodostuminen{
-        margin-top: 160px;
+    .tutkinnonOsat, .osaamisen-arviointi, .tutkinnon-muodostuminen{
+        margin-top: 80px;
     }
+
+    .arviointiTaulukko{
+        margin-top: 130px;
+    }
+
+    .showcase{
+        margin-top: 120px;
+        height: 250px;
+    }
+
+    
 
     
 
