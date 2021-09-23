@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --teksti: #3a393a;
+    --tausta: #ffffff;
+    --teksti-vaalea: #d8d8d8;
+    --bg-dark: #525252d3;
+    --highlight: #0cd105;
+    --tableColor: #e5f0f3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Yleiskäyttöisiä tyylejä*/
+
+/*vertikaalista keskittämistä*/
+.v-center{
+  position:absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+
+/*horisontaalinen oikea tasaus*/
+.h-right{
+    position: absolute;
+    right: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'sans-serif';
+
+    background-color: var(--tausta);
+    color: var(--teksti);
+   
+
+  }
+
+  main{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  header{
+    background-color: var(--bg-dark);
+    padding: 10px;
+    color: var(--teksti-vaalea);
+    text-align: center;
+    font-size: 1.5em;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border: black solid 4px;
+  }
+
+  header .logo{
+    float: left;
+    font-size: 2.2em;
+  }
+
+ 
+
+  header a{
+    color: var(--teksti-vaalea);
+    text-decoration: none;
+    padding: 0.2em;
+  }
+
+  header a:hover{
+    color: var(--teksti);
+    background-color: var(--highlight);
+  }
+
+  section{
+      max-width: 900px;
+      width: 70%;
+      margin: 20px auto;
+
+  }
+  
+  .showcase{
+    font-size: 1.7em;
+    line-height: 1.7em;
+    padding-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/screen\ of\ code.jpg');
+  }
+
+  .showcase > div{
+    color: var(--teksti-vaalea);
+    max-width: 55%;
+    text-align: center;
+    margin: 0 auto;
+  
+  }
+
+  .sisallysLuettelo a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--bg-dark);
+    border: 1px solid var(--teksti);
+    padding: 20px;
+    margin: 7px 0;
+    border-radius: 15px;
+    color: var(--teksti-vaalea);
+  }
+
+  .sisallysLuettelo a:hover{
+    color:var(--teksti);
+    background-color: var(--highlight);
+  }
+
+
+  footer{
+    background-color: var(--bg-dark);
+    color: var(--teksti-vaalea);
+    padding: 50px 0;
+    text-align: center;
+   /*
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    */
+   
+  }
+
+  table {
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 0.7em;
+  }
+ 
+  table th{
+    
+      border: 1px solid black; 
+  }
+
+  
+
+  .varillinen{
+    background-color: var(--tableColor);
+    
+  }
+
+  .tyhja{
+    height:20px;
+    background-color: var(--tableColor);
+  }
+  
+
+  .osaamisen-arviointi, .tutkinnon-muodostuminen, .tutkinnonOsat{
+    padding-top: 30px;
+  }
+
+  .tutkintoLista{
+    padding-bottom: 52px;
+  }
+
+  .arviointiTeksti{
+    padding-bottom: 28px;
+  }
+
+
+
+
+.listoja{
+ float: left;
+ margin-left: -75px;
+}
+
+.footteri{
+  clear: both;
+  position: relative;
+  padding: 50px 0;
+  margin-top: -200px;
+}
+
+
+.sisempi-lista{
+  padding-bottom: 30px;
+}
+
+
+
+  

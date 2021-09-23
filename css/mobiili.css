@@ -1,0 +1,69 @@
+/* mobiili-tyylit */
+
+@media only screen and (max-width: 800px){
+
+/* asetetaan elementit allekkain 100% leveydelle */
+
+
+    header,
+    header > div.logo,
+    header > nav,
+    header > nav a,
+    section,
+    main
+    {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+
+    header{
+        font-size: 1.2em;
+        
+    }
+   
+
+
+    .v-center, .h-right{
+        display: block;
+        position: relative;
+        transform: none;
+    }
+
+    .showcase{
+        font-size: 0.8em;
+        
+    }
+
+    .tutkinnonOsat, .osaamisen-arviointi, .tutkinnon-muodostuminen{
+        margin-top: 80px;
+    }
+
+    .arviointiTaulukko{
+        margin-top: 130px;
+    }
+
+    .showcase{
+        margin-top: 120px;
+        height: 250px;
+    }
+
+    
+
+    
+
+
+    header nav a{
+        padding: 2px 0;
+    }
+
+
+    .listoja{
+        float: none;
+        position: sticky;
+        left: 40%;
+    }
+}
